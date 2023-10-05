@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'T-6_P-IV';
+  showForm: boolean = false;
+  showTable: boolean = false;
 }
