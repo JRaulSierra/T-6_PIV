@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   showForm: boolean = false;
   showTable: boolean = false;
+  mascotas: any = []
+  GuardarMascota($event:Object){
+
+  }
 }

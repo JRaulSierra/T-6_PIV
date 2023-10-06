@@ -14,6 +14,6 @@
   </mat-toolbar>
 </p>
 <div class="center-container">
-  <app-formulario *ngIf="showForm"></app-formulario>
-  <app-tabla *ngIf="showTable"></app-tabla>
+  <app-formulario *ngIf="showForm" (enviarMascota)="GuardarMascota($event)"></app-formulario>
+  <app-table *ngIf="showTable"></app-table>
 </div>
